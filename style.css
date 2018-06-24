@@ -1,0 +1,31 @@
+body {
+    background: black;
+    color: white;
+}
+
+#time {
+    cursor: pointer;
+    margin: 0 1em 1em 1em;
+}
+
+#aCheck, #aCheck * {
+    cursor: pointer;
+}
+
+#map {
+    height: 400px;
+    min-height: 40em;
+    width: 100%;
+}
+
+.lotInfo {
+    color: black;
+}
+
+.disableSelection {
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer */
+    -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+    -webkit-user-select: none; /* Chrome, Safari, and Opera */
+    -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+}
